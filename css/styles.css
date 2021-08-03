@@ -9,7 +9,6 @@ img {
   border-radius: 0;
 }
 section {
-  width: 90%;
   border-width: 1px;
   border-color: gray;
   border-style: solid;
@@ -37,7 +36,7 @@ button:active {
 }
 button:hover {
   opacity: .8;
-
+  
 }
 /* 
 @media (max-width:600px) {
@@ -46,15 +45,19 @@ button:hover {
     height: 300px;
     border-radius: 0px;
   }
-section {
-  height: 600px;
+  section {
+    height: 600px;
   }
-button {
-  display: none;
+  button {
+    display: none;
   }
 } */ 
 @media (min-width:600px) {
   button {
     display: none;
+  }
+  img {
+    width: 600px;
+    height: 100%;
   }
 }
