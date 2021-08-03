@@ -1,5 +1,10 @@
 img {
   border-radius: 50%;
+  cursor: pointer;
+  transition: border-radius .5s;
+}
+.changed {
+  border-radius: 0;
 }
 section {
   border-width: 1px;
@@ -46,4 +51,10 @@ button:hover {
   opacity: .8;
 
 }
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  text-align: center;
 }
