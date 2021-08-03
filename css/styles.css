@@ -50,12 +50,6 @@ section {
 button {
   display: none;
   }
-}
-.box {
-  width: 100px;
-  height: 100px;
-  background: orange;
-  text-align: center;
 } */ 
 @media (min-width:600px) {
   button {
