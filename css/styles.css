@@ -20,7 +20,8 @@ section {
 body {
   text-align: center;
 }
-button {
+.unk {
+  width: 180px;
   font-weight: bold;
   margin: 0 auto;
   border-style: none;
@@ -30,11 +31,11 @@ button {
   box-shadow: 0 4px 0 rgb(15, 112, 15);
   cursor: pointer;
 }
-button:active {
+.unk:active {
   transform: translateY(4px);
   box-shadow: none;
 }
-button:hover {
+.unk:hover {
   opacity: .8;
   
 }
@@ -53,14 +54,21 @@ button:hover {
   }
 } */ 
 @media (min-width:600px) {
-  button {
+  .unk {
     display: none;
   }
   img {
     width: 600px;
     height: 100%;
   }
+  form {
+    width: 600px;
+    margin: 0 auto;
+  }
 }
+
 a {
   text-decoration: none;
+  color: black;
+  display: block;
 }
