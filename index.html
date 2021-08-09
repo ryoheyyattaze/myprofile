@@ -11,7 +11,7 @@
   <body>
     <section>
       <img src="ishikawa.jpg" alt="涼平のアイコン画像です" id="trigger">
-      <h1>石川涼平</h1>
+      <h1 id = 'name'>石川涼平</h1>
       <p id="target">すごい人です。エンジニアの卵です。日々の勉強をがんばっています。</p>
       <div id="button">ここをクリック！</div>
        <div class="unk"><a href="https://www.instagram.com/ishikawa_garlic_shrimp/" target="blank">気になる方はこちら！</a></div>
@@ -45,7 +45,22 @@
       document.getElementById('trigger').addEventListener('click', process);
       document.getElementById('button').addEventListener('click', () => {
         document.getElementById('target').textContent = '押してんじゃねえよ禿！'
+      //   document.getElementById('name').animate ([
+      //    {transform: 'translate3D(0, 0, 0)'}
+      // ], {
+      //   duration: 1000,
+      //   iterations: Infinity
+      // });
+      document.getElementById("name").animate([
+  { transform: 'translate3D(0, 0, 0)' }, 
+  { transform: 'translate3D(0, -300px, 0)' }
+    ], {
+  duration: 1000,
+  iterations: Infinity
+})
       });
+      
+
     </script>
   </body>
 </html>
